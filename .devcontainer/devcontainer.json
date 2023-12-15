@@ -1,8 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/devcontainers/features/nix:1": {
-      "packages": ["ghc", "haskell-language-server", "hpack"]
+    "ghcr.io/devcontainers-contrib/features/haskell:2": {
+      "installStack": false,
+      "globalPackages": "hpack"
     }
   }
 }
